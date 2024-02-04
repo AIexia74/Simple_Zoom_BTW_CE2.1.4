@@ -1,0 +1,203 @@
+package net.minecraft.src;
+
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class MerchantRecipeList extends ArrayList
+{
+    public MerchantRecipeList() {}
+
+    public MerchantRecipeList(NBTTagCompound par1NBTTagCompound)
+    {
+        this.readRecipiesFromTags(par1NBTTagCompound);
+    }
+
+    /**
+     * checks if there is a recipie for the same ingredients already on the list, and replaces it. otherwise, adds it
+     */
+    public void addToListWithCheck(MerchantRecipe par1MerchantRecipe)
+    {
+        for (int var2 = 0; var2 < this.size(); ++var2)
+        {
+            MerchantRecipe var3 = (MerchantRecipe)this.get(var2);
+
+            if (par1MerchantRecipe.hasSameIDsAs(var3))
+            {
+                return;
+            }
+        }
+
+        this.add(par1MerchantRecipe);
+    }
+
+    public void writeRecipiesToStream(DataOutputStream par1DataOutputStream) throws IOException
+    {
+        par1DataOutputStream.writeByte((byte)(this.size() & 255));
+
+        for (int var2 = 0; var2 < this.size(); ++var2)
+        {
+            MerchantRecipe var3 = (MerchantRecipe)this.get(var2);
+            Packet.writeItemStack(var3.getItemToBuy(), par1DataOutputStream);
+            Packet.writeItemStack(var3.getItemToSell(), par1DataOutputStream);
+            ItemStack var4 = var3.getSecondItemToBuy();
+            par1DataOutputStream.writeBoolean(var4 != null);
+
+            if (var4 != null)
+            {
+                Packet.writeItemStack(var4, par1DataOutputStream);
+            }
+
+            par1DataOutputStream.writeBoolean(var3.func_82784_g());
+            
+            // FCMOD: Code added
+            par1DataOutputStream.writeShort( var3.tradeLevel);
+			par1DataOutputStream.writeBoolean(var3.isMandatory());
+            // END FCMOD
+        }
+    }
+
+    @Environment(EnvType.CLIENT)
+    public static MerchantRecipeList readRecipiesFromStream(DataInputStream par0DataInputStream) throws IOException
+    {
+        MerchantRecipeList var1 = new MerchantRecipeList();
+        int var2 = par0DataInputStream.readByte() & 255;
+
+        for (int var3 = 0; var3 < var2; ++var3)
+        {
+            ItemStack var4 = Packet.readItemStack(par0DataInputStream);
+            ItemStack var5 = Packet.readItemStack(par0DataInputStream);
+            ItemStack var6 = null;
+
+            if (par0DataInputStream.readBoolean())
+            {
+                var6 = Packet.readItemStack(par0DataInputStream);
+            }
+
+            boolean var7 = par0DataInputStream.readBoolean();
+            MerchantRecipe var8 = new MerchantRecipe(var4, var6, var5);
+
+            if (var7)
+            {
+                var8.func_82785_h();
+            }
+            
+            // FCMOD: Code added (client only)
+            int iTradeLevel = par0DataInputStream.readShort();
+            
+            var8.tradeLevel = iTradeLevel;
+			
+			if (par0DataInputStream.readBoolean()) {
+				var8.setMandatory();
+			}
+            // END FCMOD
+
+            var1.add(var8);
+        }
+
+        return var1;
+    }
+
+    public void readRecipiesFromTags(NBTTagCompound par1NBTTagCompound)
+    {
+        NBTTagList var2 = par1NBTTagCompound.getTagList("Recipes");
+
+        for (int var3 = 0; var3 < var2.tagCount(); ++var3)
+        {
+            NBTTagCompound var4 = (NBTTagCompound)var2.tagAt(var3);
+            this.add(new MerchantRecipe(var4));
+        }
+    }
+
+    public NBTTagCompound getRecipiesAsTags()
+    {
+        NBTTagCompound var1 = new NBTTagCompound();
+        NBTTagList var2 = new NBTTagList("Recipes");
+
+        for (int var3 = 0; var3 < this.size(); ++var3)
+        {
+            MerchantRecipe var4 = (MerchantRecipe)this.get(var3);
+            var2.appendTag(var4.writeToTags());
+        }
+
+        var1.setTag("Recipes", var2);
+        return var1;
+    }
+
+    // FCMOD: Code added
+    public MerchantRecipe canRecipeBeUsed( ItemStack inputStack1, ItemStack inputStack2, int iRecipeIndex )
+    {
+        if ( iRecipeIndex >= 0 && iRecipeIndex < size() )
+        {
+            MerchantRecipe recipe = (MerchantRecipe)get(iRecipeIndex);
+            
+            if (isStackValidForFirstSlotOfRecipe(inputStack1, recipe) && isStackValidForSecondSlotOfRecipe(inputStack2, recipe) )
+            {
+            	return recipe;
+            }
+        }
+        else
+        {
+            for ( int iTempRecipeIndex = 0; iTempRecipeIndex < size(); ++iTempRecipeIndex )
+            {
+                MerchantRecipe tempRecipe = (MerchantRecipe)get( iTempRecipeIndex );
+
+                if (isStackValidForFirstSlotOfRecipe(inputStack1, tempRecipe) && isStackValidForSecondSlotOfRecipe(inputStack2, tempRecipe) )
+                {
+                	return tempRecipe;
+                }
+            }
+        }
+        
+        return null;
+    }
+    
+    private boolean isStackValidForFirstSlotOfRecipe(ItemStack stack, MerchantRecipe recipe)
+    {
+    	if ( stack.itemID == recipe.getItemToBuy().itemID && stack.stackSize >= recipe.getItemToBuy().stackSize )
+    	{
+    		if ( recipe.getItemToBuy().getHasSubtypes() )
+    		{
+    			return stack.getItemDamage() == recipe.getItemToBuy().getItemDamage(); 
+    		}
+    		else
+    		{
+    			return true;
+    		}
+    	}
+    	
+    	return false;
+    }
+    
+    private boolean isStackValidForSecondSlotOfRecipe(ItemStack stack, MerchantRecipe recipe)
+    {
+    	if ( recipe.hasSecondItemToBuy() )
+    	{
+    		if ( stack != null )
+    		{
+	        	if ( stack.itemID == recipe.getSecondItemToBuy().itemID && stack.stackSize >= recipe.getSecondItemToBuy().stackSize )
+	        	{
+	        		if ( recipe.getSecondItemToBuy().getHasSubtypes() )
+	        		{
+	        			return stack.getItemDamage() == recipe.getSecondItemToBuy().getItemDamage(); 
+	        		}
+	        		else
+	        		{
+	        			return true;
+	        		}
+	        	}
+    		}
+    	}
+    	else if ( stack == null )
+    	{
+    		return true;
+    	}
+    	
+    	return false;
+    }
+    // END FCMOD
+}

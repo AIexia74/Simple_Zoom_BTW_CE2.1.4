@@ -1,0 +1,30 @@
+2024-01-29 19:07:55 [INFO] Hello Fabric world!
+2024-01-29 19:07:55 [INFO] Starting minecraft server version 1.5.2
+2024-01-29 19:07:55 [INFO] ...Add-On Handler Initializing...
+2024-01-29 19:07:55 [INFO] Classloader: net.fabricmc.loader.launch.knot.KnotClassLoader
+2024-01-29 19:07:55 [INFO] Minecraft jar found: jar:file:/C:/Users/Me/Desktop/BTW-gradle-fabric-example-master/build/dev_run/dev.jar!/
+2024-01-29 19:07:56 [INFO] Found Add-on: BTWAddon
+2024-01-29 19:07:56 [INFO] Found Add-on: BTWMod
+2024-01-29 19:07:56 [INFO] Found Add-on: ExampleAddon
+2024-01-29 19:07:56 [INFO] Better Than Wolves Community Edition Version 2.1.4 Initializing...
+2024-01-29 19:07:56 [INFO] Better Than Wolves Initialization Complete.
+2024-01-29 19:07:56 [INFO] §kExample Name Version 0.1.0 Initializing...
+2024-01-29 19:07:56 [INFO] ...Add-On Handler Loading Custom Language File With Prefix: BTW...
+2024-01-29 19:07:56 [INFO] ...Add-On Handler Loading Custom Language File With Prefix: Ex...
+2024-01-29 19:07:56 [INFO] ...Add-On Handler Loading Custom Language File With Prefix: Ex...
+2024-01-29 19:07:56 [INFO] ...Add-On Handler Loading Custom Language File With Prefix: BTW...
+2024-01-29 19:07:56 [INFO] ...Add-On Handler Initialization Complete...
+2024-01-29 19:07:56 [INFO] Loading properties
+2024-01-29 19:07:56 [WARNING] server.properties does not exist
+2024-01-29 19:07:56 [INFO] Generating new properties file
+2024-01-29 19:07:56 [INFO] Default game type: SURVIVAL
+2024-01-29 19:07:56 [INFO] Generating keypair
+2024-01-29 19:07:56 [INFO] Starting Minecraft server on *:25565
+2024-01-29 19:07:56 [WARNING] Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (Le fichier spécifié est introuvable)
+2024-01-29 19:07:56 [WARNING] Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (Le fichier spécifié est introuvable)
+2024-01-29 19:07:56 [INFO] Preparing level "world"
+2024-01-29 19:07:56 [WARNING] Unable to find spawn biome
+2024-01-29 19:07:56 [INFO] Preparing start region for level 0
+2024-01-29 19:07:57 [INFO] Preparing spawn area: 34%
+2024-01-29 19:07:58 [INFO] Preparing spawn area: 74%
+2024-01-29 19:07:59 [INFO] Done (2,838s)! For help, type "help" or "?"

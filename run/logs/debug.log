@@ -1,0 +1,58 @@
+[20:45:02] [main/INFO] (FabricLoader) Loading for game Minecraft 1.5.2
+[20:45:02] [main/DEBUG] (FabricLoader) Requesting deobfuscation of dev.jar
+[20:45:02] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/build/dev_run/dev.jar to classpath.
+[20:45:02] [main/DEBUG] (FabricLoader|EntrypointTransformer) Found game constructor: net.minecraft.client.main.Main -> net.minecraft.client.Minecraft
+[20:45:02] [main/DEBUG] (FabricLoader|EntrypointTransformer) Patching game constructor startGame()V
+[20:45:02] [main/DEBUG] (FabricLoader|EntrypointTransformer) Run directory field is thought to be net/minecraft/client/Minecraft/mcDataDir
+[20:45:02] [main/DEBUG] (FabricLoader|EntrypointTransformer) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
+[20:45:02] [main/DEBUG] (FabricLoader|EntrypointTransformer) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+[20:45:02] [main/DEBUG] (FabricLoader|EntrypointTransformer) [EntrypointTransformer] Patched 3 classes.
+[20:45:02] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Adding dev classpath directories to classpath.
+[20:45:02] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/build/classes/java/main/ to classpath.
+[20:45:02] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/Me/Desktop/Simple%20Zoom%20BTW/build/resources/main/
+[20:45:02] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar
+[20:45:02] [ForkJoinPool-1-worker-25/DEBUG] (Fabric|Loader) Testing file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/build/resources/main/
+[20:45:02] [ForkJoinPool-1-worker-18/DEBUG] (Fabric|Loader) Testing file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar
+[20:45:02] [ForkJoinPool-1-worker-25/DEBUG] (Fabric|Loader) Adding file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/build/resources/main/ as ModCandidate{simplezoom@1.0.0}
+[20:45:02] [ForkJoinPool-1-worker-18/DEBUG] (Fabric|Loader) Adding file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar as ModCandidate{fabricloader@1.0.0}
+[20:45:02] [ForkJoinPool-1-worker-25/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{simplezoom@1.0.0}
+[20:45:02] [ForkJoinPool-1-worker-18/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabricloader@1.0.0}
+[20:45:02] [ForkJoinPool-1-worker-18/DEBUG] (Fabric|Loader) file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar
+[20:45:02] [ForkJoinPool-1-worker-25/DEBUG] (Fabric|Loader) file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/build/resources/main/
+[20:45:02] [main/DEBUG] (Fabric|Loader) Mod resolution detection time: 32ms
+[20:45:02] [main/DEBUG] (Fabric|Loader) Mod resolution time: 4ms
+[20:45:02] [main/INFO] (Fabric|Loader) [FabricLoaderImpl] Loading 4 mods: minecraft@1.5.2, java@8, fabricloader@1.0.0, simplezoom@1.0.0
+[20:45:02] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/build/resources/main/ to classpath.
+[20:45:02] [main/DEBUG] (Fabric|Loader) Registering new-style initializer net.fabricmc.simplezoom.SimpleZoomMod for mod simplezoom (key init)
+[20:45:02] [main/DEBUG] (Fabric|Loader) Registering new-style initializer net.fabricmc.simplezoom.SimpleZoomPreLaunchInitializer for mod simplezoom (key preLaunch)
+[20:45:02] [main/DEBUG] (mixin) Mixin bootstrap service org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapperBootstrap is not available: LaunchWrapper is not available
+[20:45:02] [main/DEBUG] (mixin) Mixin bootstrap service org.spongepowered.asm.service.modlauncher.MixinServiceModLauncherBootstrap is not available: ModLauncher is not available
+[20:45:02] [main/DEBUG] (mixin) MixinService [LaunchWrapper] is not valid
+[20:45:02] [main/DEBUG] (mixin) MixinService [ModLauncher] is not valid
+[20:45:02] [main/DEBUG] (mixin) MixinService [Knot/Fabric] was successfully booted in sun.misc.Launcher$AppClassLoader@6f94fa3e
+[20:45:02] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Me/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.9.2+mixin.0.8.2/12c437eebf031967eaa7daad861e115932772cc7/sponge-mixin-0.9.2+mixin.0.8.2.jar Service=Knot/Fabric Env=CLIENT
+[20:45:02] [main/DEBUG] (mixin) Initialising Mixin Platform Manager
+[20:45:02] [main/DEBUG] (mixin) Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar)
+[20:45:02] [main/DEBUG] (mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar)
+[20:45:02] [main/DEBUG] (mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar)
+[20:45:02] [main/DEBUG] (mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar)
+[20:45:02] [main/DEBUG] (mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar)
+[20:45:02] [main/DEBUG] (mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar)]
+[20:45:02] [main/DEBUG] (mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/Me/Desktop/Simple%20Zoom%20BTW/.gradle/loom-cache/remapped_mods/null_unspecified_1_5_2_1_0/io/github/minecraft-cursed-legacy/cursed-fabric-loader/1.0.0/cursed-fabric-loader-1.0.0.jar)]
+[20:45:03] [main/DEBUG] (FabricLoader) Loading mappings took 46 ms
+[20:45:03] [main/INFO] (Fabric|MixinBootstrap) Loaded Fabric development mappings for mixin remapper!
+[20:45:03] [main/DEBUG] (mixin) Error cleaning class output directory: .mixin.out\class: failed to delete one or more files; see suppressed exceptions for details
+[20:45:03] [main/DEBUG] (Fabric|Loader) Iterating over entrypoint 'preLaunch'
+[20:45:03] [main/DEBUG] (mixin) Preparing mixins for MixinEnvironment[DEFAULT]
+[20:45:03] [main/DEBUG] (mixin) Selecting config simplezoom.mixins.json
+[20:45:03] [main/DEBUG] (mixin) Preparing simplezoom.mixins.json (1)
+[20:45:03] [main/DEBUG] (mixin) Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[20:45:03] [main/DEBUG] (mixin) Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[20:45:03] [main/DEBUG] (mixin) Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[20:45:03] [main/DEBUG] (mixin) Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[20:45:03] [main/DEBUG] (mixin) Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[20:45:03] [main/DEBUG] (mixin) Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[20:45:03] [main/DEBUG] (mixin) Mixing SimpleZoomMixin from simplezoom.mixins.json into net.minecraft.client.Minecraft
+[20:45:04] [Minecraft main thread/DEBUG] (Fabric|Loader) Iterating over entrypoint 'init'
+[20:45:04] [Minecraft main thread/DEBUG] (Fabric|Loader) No subscribers for entrypoint 'client'
+[20:45:04] [Minecraft main thread/DEBUG] (Fabric|Loader) No subscribers for entrypoint 'postInit'

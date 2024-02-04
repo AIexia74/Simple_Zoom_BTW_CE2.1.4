@@ -1,0 +1,668 @@
+# BTW Blocks
+
+tile.fcBlockArcaneVessel.name=Ejderha Çömleği
+tile.fcBlockScrewPump.name=Vidalı Pompa
+tile.FCBlockFarmlandFertilized.name=Tarım Arazisi
+tile.fcBlockWoolSlab.name=Yün Basamak
+tile.fcBlockGroth.name=Nether Filizi
+tile.fcBlockInfernalEnchanter.name=Dehşetli Büyü Masası
+tile.fcBlockSoulforgedSteel.name=Ruhlanmış Çelik Bloğu
+tile.fcBlockDetectorLogicGlowing.name=Parlayan Dedektör Devre
+tile.fcBlockBloodWoodLeaves.name=Kan Ağacı Yaprakları
+tile.fcBlockBloodWood.name=Kan Ağacı Odunu
+tile.fcBlockMiningCharge.name=Maden Mayını
+tile.fcBlockBuddyBlock.name=Ahbap Bloğu
+tile.fcBlockKiln.name=Seramik Fırını
+tile.fcBlockAnvil.name=Ruhlanmış Örs
+tile.fcBlockLightBlock.name=Işık Bloğu
+tile.fcBlockHibachi.name=Hibaçi
+tile.fcBlockHopper.name=Huni
+tile.fcBlockSaw.name=Testere
+tile.fcBlockPlatform.name=Platform
+tile.fcBlockCement.name=Çimento
+tile.fcBlockPulley.name=Halat Makara
+tile.fcBlockWoodOakMoulding.name=Eski Pervaz
+tile.fcBlockWoodOakMoulding.moulding.name=Eski Pervaz
+tile.fcBlockCorner.name=Eski Köşe
+tile.fcBlockBlockDispenser.name=Blok Dağıtıcı
+tile.fcBlockCauldron.name=Kazan
+tile.fcBlockDetectorBlock.name=Dedektör Bloğu
+tile.fcBlockDetectorLogic.name=Dedektör Devre
+tile.fcBlockLens.name=Mercek
+tile.fcBlockHemp.name=Kenevir Mahsulü
+tile.fcBlockHandCrank.name=El Levyesi
+tile.fcBlockMillStone.name=Değirmen Taşı
+tile.fcBlockAnchor.name=Halat Çıpası
+tile.fcBlockRope.name=Halat
+tile.fcBlockOmniSlab.name=Eski Cephe
+tile.fcBlockAxle.name=Aks
+tile.fcBlockAxlePowerSource.name=Güçlendirilmiş Aks
+tile.fcBlockGearBox.name=Dişli Kutusu
+tile.fcBlockTurntable.name=Çömlekçi Tornası
+tile.fcBlockBellows.name=Körük
+tile.fcBlockStokedFire.name=Harlanmış Ateş
+tile.fcBlockUnfiredPottery.name=Pişmemiş Çömlek
+tile.fcBlockCrucible.name=Pota
+tile.fcBlockPlanter.name=Saksı
+tile.fcBlockVase.name=Vazo
+tile.fcBlockDetectorRailWood.name=Ahşap Dedektör Ray
+tile.fcBlockDetectorRailSoulforgedSteel.name=Ruhlanmış Çelik Dedektör Ray
+tile.fcBlockRottenFlesh.name=Çürük Et Bloğu
+tile.fcBlockSoulforgeDormant.name=Pasif Ruhlanmış Örs
+tile.fcBlockSmoothstoneStairs.name=Taş Merdiven
+tile.fcBlockRottenFleshSlab.name=Çürük Et Basamak
+tile.fcBlockBoneSlab.name=Kemik Basamak
+tile.fcBlockPumpkinFresh.name=Bal Kabağı
+tile.fcBlockWoodBloodStairs.name=Kan Ağacı Merdiven
+tile.fcBlockLogDamaged.name=Hırpalanmış Meşe Odunu
+tile.fcBlockLogDamagedSpruce.name=Hırpalanmış Ladin Odunu
+tile.fcBlockLogDamagedBirch.name=Hırpalanmış Huş Odunu
+tile.fcBlockLogDamagedJungle.name=Hırpalanmış Orman Ağacı Odunu
+tile.fcBlockDirtLoose.name=Dağınık Toprak
+tile.fcBlockDirtLooseSlab.name=Dağınık Toprak Basamak
+tile.fcBlockCampfire.name=Kamp Ateşi
+tile.fcBlockUnfiredBrick.name=Pişmemiş Tuğla
+tile.fcBlockCookedBrick.name=Tuğla
+tile.fcBlockBrickLoose.name=Dağınık Tuğla
+tile.fcBlockBrickLooseSlab.name=Dağınık Tuğla Basamak
+tile.fcBlockCobblestoneLoose.name=Dağınık Kırık Taş
+tile.fcBlockCobblestoneLooseSlab.name=Dağınık Kırık Taş Basamak
+tile.fcBlockFurnaceBrick.name=Tuğla Fırın
+tile.fcBlockTorchFiniteIdle.name=Ham Meşale
+tile.fcBlockTorchFiniteBurning.name=Yanan Ham Meşale
+tile.fcBlockStoneRough.name=Kaba Taş
+tile.fcBlockWorkStump.name=Çalışma Kütüğü
+tile.fcBlockBasketWicker.name=Hasır Sepet
+tile.fcBlockLogSpike.name=Meşe Odunu Kazığı
+tile.fcBlockLogSpikeSpruce.name=Ladin Odunu Kazığı
+tile.fcBlockLogSpikeBirch.name=Huş Odunu Kazığı
+tile.fcBlockLogSpikeJungle.name=Orman Ağacı Odunu Kazığı
+tile.fcBlockTorchIdle.name=Sönük Meşale
+tile.fcBlockUnfiredClay.name=Pişmemiş Kil
+tile.fcBlockMyceliumSlab.name=Miselyum Basamak
+tile.fcBlockBrickLooseStairs.name=Dağınık Tuğla Merdiven
+tile.fcBlockCobblestoneLooseStairs.name=Dağınık Kırık Taş Merdiven
+tile.fcBlockLogSmouldering.name=Yanan Odun
+tile.fcBlockWoodCinders.name=Küller
+tile.fcBlockStumpCharred.name=Kömürsü Kök
+tile.fcBlockAshGroundCover.name=Kül
+tile.fcBlockSnowLoose.name=Dağınık Kar
+tile.fcBlockSnowLooseSlab.name=Dağınık Kar Basamak
+tile.fcBlockSnowSolid.name=Kar
+tile.fcBlockSnowSolidSlab.name=Kar Basamak
+tile.fcBlockLadder.name=Merdiven
+tile.fcBlockLadderOnFire.name=Yanan Merdiven
+tile.fcBlockShovel.name=Piston Kürek
+tile.fcBlockHamper.name=Kapaklı Sepet
+tile.fcBlockCreeperOysters.name=İstiridye Bloğu
+tile.fcBlockCreeperOystersSlab.name=İstiridye Basamak
+tile.fcBlockTorchNetherBurning.name=Yanan Meşale
+tile.fcBlockRedstoneClutch.name=Kızıl Taş Denetleyici
+tile.fcBlockSpikeIron.name=Demir Diken
+tile.fcBlockLightningRod.name=Paratoner
+tile.fcBlockStoneBrickLoose.name=Dağınık Taş Tuğla
+tile.fcBlockStoneBrickLooseSlab.name=Dağınık Taş Tuğla Basamak
+tile.fcBlockStoneBrickLooseStairs.name=Dağınık Taş Tuğla Merdiven
+tile.fcBlockNetherBrickLoose.name=Dağınık Nether Tuğlası
+tile.fcBlockNetherBrickLooseSlab.name=Dağınık Nether Tuğlası Basamak
+tile.fcBlockNetherBrickLooseStairs.name=Dağınık Nether Tuğlası Merdiven
+tile.fcBlockNetherrackFalling.name=Düşen Nether Taşı
+tile.fcBlockLavaPillow.name=Lav Yastığı
+tile.fcBlockChunkOreStorageIron.name=Demir Bloğu
+tile.fcBlockChunkOreStorageGold.name=Altın Bloğu
+tile.fcBlockWicker.name=Hasır Bloğu
+tile.fcBlockWickerSlab.name=Hasır Basamak
+tile.fcBlockWickerPane.name=İnce Hasır
+tile.fcBlockGrate.name=Izgara
+tile.fcBlockSlats.name=Çıta
+tile.fcBlockFarmlandNew.name=Tarım Arazisi
+tile.fcBlockPlanterSoil.name=Topraklı Saksı
+tile.fcBlockSilverfishStone.name=Parazitli Taş
+tile.fcBlockSilverfishStone2.name=Parazitli Taş
+tile.fcBlockSilverfishStone3.name=Parazitli Taş
+tile.fcBlockSilverfishCobblestone.name=Parazitli Kırık Taş
+tile.fcBlockSilverfishStoneBrick.name=Parazitli Taş Tuğla
+tile.fcBlockSilverfishStoneBrickMossy.name=Parazitli Yosunlu Taş Tuğla
+tile.fcBlockSilverfishStoneCracked.name=Parazitli Çatlak Taş Tuğla
+tile.fcBlockSilverfishStoneChiseled.name=Parazitli Oyma Taş Tuğla
+tile.fcBlockClay.name=Kil Cevheri
+tile.fcBlockGrassSlab.name=Çimen Basamak
+tile.fcBlockBedroll.name=Uyku Tulumu
+tile.fcBlockSpiderEye.name=Örümcek Gözü Bloğu
+tile.fcBlockSpiderEyeSlab.name=Örümcek Gözü Basamak
+tile.fcBlockSaplingOak.name=Meşe Fidanı
+tile.fcBlockSaplingOak.mature.name=Olgun Meşe Fidanı
+tile.fcBlockSaplingSpruce.name=Ladin Fidanı
+tile.fcBlockSaplingSpruce.mature.name=Olgun Ladin Fidanı
+tile.fcBlockSaplingBirch.name=Huş Fidanı
+tile.fcBlockSaplingBirch.mature.name=Olgun Huş Fidanı
+tile.fcBlockSaplingJungle.name=Orman Ağacı Fidanı
+tile.fcBlockSaplingJungle.mature.name=Olgun Huş Orman Ağacı Fidanı
+tile.fcBlockMushroomCap.name=Mantar Bloğu
+tile.fcBlockLoom.name=Dokuma Tezgahı
+
+# BTW Complex Blocks
+
+tile.fcBlockCompanionCube.cube.name=Arkadaşlık Küpü
+tile.fcBlockCompanionCube.slab.name=Arkadaşlık Basamağı
+tile.fcBlockAestheticOpaque.name=Estetik Opak
+tile.fcBlockAestheticOpaque.wicker.name=Eski Hasır Bloğu
+tile.fcBlockAestheticOpaque.dung.name=Eski Dışkı
+tile.fcBlockAestheticOpaque.steel.name=Ruhlanmış Çelik Bloğu
+tile.fcBlockAestheticOpaque.hellfire.name=Derişik Cehennem Ateşi Bloğu
+tile.fcBlockAestheticOpaque.padding.name=İçirik Bloğu
+tile.fcBlockAestheticOpaque.soap.name=Sabun Bloğu
+tile.fcBlockAestheticOpaque.rope.name=Halat Rulosu
+tile.fcBlockAestheticOpaque.flint.name=Çakmak Taşı Bloğu
+tile.fcBlockAestheticOpaque.whitestone.name=Beyaz Taş
+tile.fcBlockAestheticOpaque.whitecobble.name=Beyaz Kırık Taş
+tile.fcBlockAestheticOpaque.barrel.name=Varil
+tile.fcBlockAestheticOpaque.choppingblock.name=Doğrama Bloğu
+tile.fcBlockAestheticOpaque.enderblock.name=Ender Bloğu
+tile.fcBlockAestheticOpaque.bone.name=Kemik Bloğu
+tile.fcBlockAestheticNonOpaque.name=Estetik Saydam
+tile.fcBlockAestheticNonOpaque.urn.name=Kavanoz
+tile.fcBlockAestheticNonOpaque.column.name=Eski Sütun
+tile.fcBlockAestheticNonOpaque.pedestal.name=Eski Kaide
+tile.fcBlockAestheticNonOpaque.table.name=Eski Masa
+tile.fcBlockAestheticNonOpaque.wickerslab.name=Eski Hasır Basamak
+tile.fcBlockAestheticNonOpaque.whitecobbleslab.name=Beyaz Kırık Taş Basamak
+tile.fcBlockAestheticNonOpaque.lightningrod.name=Eski Ruhlanmış Çelik Çubuk
+tile.fcBlockAestheticVegetation.name=Estetik Yeşillik
+tile.fcBlockAestheticVegetation.vinetrap.name=Sarmaşık Tuzağı
+tile.fcBlockAestheticVegetation.bloodwoodsapling.name=Kan Ağacı Fidanı
+tile.fcBlockAestheticVegetation.bloodleaves.name=Kan Ağacı Yaprakları
+
+tile.fcWoodSpruceSiding.oak.name=Meşe Tahtası Cephe
+tile.fcWoodSpruceSiding.spruce.name=Ladin Tahtası Cephe
+tile.fcWoodSpruceSiding.birch.name=Huş Tahtası Cephe
+tile.fcWoodSpruceSiding.jungle.name=Orman Ağacı Tahtası Cephe
+tile.fcWoodSpruceSiding.blood.name=Kan Ağacı Tahtası Cephe
+
+tile.fcWoodSpruceMoulding.oak.name=Meşe Tahtası Pervaz
+tile.fcWoodSpruceMoulding.spruce.name=Ladin Tahtası Pervaz
+tile.fcWoodSpruceMoulding.birch.name=Huş Tahtası Pervaz
+tile.fcWoodSpruceMoulding.jungle.name=Orman Ağacı Tahtası Pervaz
+tile.fcWoodSpruceMoulding.blood.name=Kan Ağacı Tahtası Pervaz
+
+tile.fcWoodBirchSiding.oak.name=Meşe Tahtası Köşe
+tile.fcWoodBirchSiding.spruce.name=Ladin Tahtası Köşe
+tile.fcWoodBirchSiding.birch.name=Huş Tahtası Köşe
+tile.fcWoodBirchSiding.jungle.name=Orman Ağacı Tahtası Köşe
+tile.fcWoodBirchSiding.blood.name=Kan Ağacı Tahtası Köşe
+
+tile.fcWoodBirchMoulding.oak.pedestal.name=Meşe Tahtası Kaide
+tile.fcWoodBirchMoulding.spruce.pedestal.name=Ladin Tahtası Kaide
+tile.fcWoodBirchMoulding.birch.pedestal.name=Huş Tahtası Kaide
+tile.fcWoodBirchMoulding.jungle.pedestal.name=Orman Ağacı Tahtası Kaide
+tile.fcWoodBirchMoulding.blood.pedestal.name=Kan Ağacı Tahtası Kaide
+
+tile.fcWoodBirchMoulding.oak.column.name=Meşe Tahtası Sütun
+tile.fcWoodBirchMoulding.spruce.column.name=Ladin Tahtası Sütun
+tile.fcWoodBirchMoulding.birch.column.name=Huş Tahtası Sütun
+tile.fcWoodBirchMoulding.jungle.column.name=Orman Ağacı Tahtası Sütun
+tile.fcWoodBirchMoulding.blood.column.name=Kan Ağacı Tahtası Sütun
+
+tile.fcWoodBirchMoulding.oak.table.name=Meşe Masa
+tile.fcWoodBirchMoulding.spruce.table.name=Ladin Masa
+tile.fcWoodBirchMoulding.birch.table.name=Huş Masa
+tile.fcWoodBirchMoulding.jungle.table.name=Orman Ağacı Masa
+tile.fcWoodBirchMoulding.blood.table.name=Kan Ağacı Masa
+
+tile.fcWoodJungleSiding.oak.bench.name=Meşe Bank
+tile.fcWoodJungleSiding.spruce.bench.name=Ladin Bank
+tile.fcWoodJungleSiding.birch.bench.name=Huş Bank
+tile.fcWoodJungleSiding.jungle.bench.name=Orman Ağacı Bank
+tile.fcWoodJungleSiding.blood.bench.name=Kan Ağacı Bank
+
+tile.fcWoodJungleSiding.oak.fence.name=Meşe Çit
+tile.fcWoodJungleSiding.spruce.fence.name=Ladin Çit
+tile.fcWoodJungleSiding.birch.fence.name=Huş Çit
+tile.fcWoodJungleSiding.jungle.fence.name=Orman Ağacı Çit
+tile.fcWoodJungleSiding.blood.fence.name=Kan Ağacı Çit
+
+tile.fcBlockSidingBlackStone.name=Cephe ve Köşe
+tile.fcBlockSidingBlackStone.siding.name=Kara Taş Cephe
+tile.fcBlockSidingBlackStone.corner.name=Kara Taş Köşe
+tile.fcBlockSidingBlackStone.bench.name=Kara Taş Bank
+tile.fcBlockSidingBlackStone.fence.name=Kara Taş Duvar
+tile.fcBlockMouldingBlackStone.name=Pervaz ve Dekoratif
+tile.fcBlockMouldingBlackStone.moulding.name=Kara Taş Pervaz
+tile.fcBlockMouldingBlackStone.column.name=Kara Taş Sütun
+tile.fcBlockMouldingBlackStone.pedestal.name=Kara Taş Kaide
+tile.fcBlockMouldingBlackStone.table.name=Kara Taş Masa
+
+tile.fcStoneBrickSiding.name=Cephe ve Köşe
+tile.fcStoneBrickSiding.siding.name=Taş Tuğla Cephe
+tile.fcStoneBrickSiding.corner.name=Taş Tuğla Köşe
+tile.fcStoneBrickSiding.bench.name=Taş Tuğla Bank
+tile.fcStoneBrickSiding.fence.name=Taş Tuğla Duvar
+tile.fcStoneBrickMoulding.name=Pervaz ve Dekoratif
+tile.fcStoneBrickMoulding.moulding.name=Taş Tuğla Pervaz
+tile.fcStoneBrickMoulding.column.name=Taş Tuğla Sütun
+tile.fcStoneBrickMoulding.pedestal.name=Taş Tuğla Kaide
+tile.fcStoneBrickMoulding.table.name=Taş Tuğla Masa
+
+tile.fcWhiteStoneSiding.name=Cephe ve Köşe
+tile.fcWhiteStoneSiding.siding.name=Beyaz Taş Cephe
+tile.fcWhiteStoneSiding.corner.name=Beyaz Taş Köşe
+tile.fcWhiteStoneSiding.bench.name=Beyaz Taş Bank
+tile.fcWhiteStoneSiding.fence.name=Beyaz Taş Duvar
+tile.fcWhiteStoneMoulding.name=Pervaz ve Dekoratif
+tile.fcWhiteStoneMoulding.moulding.name=Beyaz Taş Pervaz
+tile.fcWhiteStoneMoulding.column.name=Beyaz Taş Sütun
+tile.fcWhiteStoneMoulding.pedestal.name=Beyaz Taş Kaide
+tile.fcWhiteStoneMoulding.table.name=Beyaz Taş Masa
+
+tile.fcBlockWhiteStoneStairs.smooth.name=Beyaz Taş Merdiven
+tile.fcBlockWhiteStoneStairs.cobble.name=Beyaz Kırık Taş Merdiven
+
+tile.fcNetherBrickSiding.name=Cephe ve Köşe
+tile.fcNetherBrickSiding.siding.name=Nether Tuğlası Cephe
+tile.fcNetherBrickSiding.corner.name=Nether Tuğlası Köşe
+tile.fcNetherBrickSiding.bench.name=Nether Tuğlası Bank
+tile.fcNetherBrickSiding.fence.name=Nether Tuğlası Duvar
+tile.fcNetherBrickMoulding.name=Pervaz ve Dekoratif
+tile.fcNetherBrickMoulding.moulding.name=Nether Tuğlası Pervaz
+tile.fcNetherBrickMoulding.column.name=Nether Tuğlası Sütun
+tile.fcNetherBrickMoulding.pedestal.name=Nether Tuğlası Kaide
+tile.fcNetherBrickMoulding.table.name=Nether Tuğlası Masa
+
+tile.fcBrickSiding.name=Cephe ve Köşe
+tile.fcBrickSiding.siding.name=Tuğla Cephe
+tile.fcBrickSiding.corner.name=Tuğla Köşe
+tile.fcBrickSiding.bench.name=Tuğla Bank
+tile.fcBrickSiding.fence.name=Tuğla Duvar
+tile.fcBrickMoulding.name=Pervaz ve Dekoratif
+tile.fcBrickMoulding.moulding.name=Tuğla Pervaz
+tile.fcBrickMoulding.column.name=Tuğla Sütun
+tile.fcBrickMoulding.pedestal.name=Tuğla Kaide
+tile.fcBrickMoulding.table.name=Tuğla Masa
+
+tile.fcStoneSiding.name=Cephe ve Köşe
+tile.fcStoneSiding.siding.name=Taş Cephe
+tile.fcStoneSiding.corner.name=Taş Köşe
+tile.fcStoneSiding.bench.name=Taş Bank
+tile.fcStoneSiding.fence.name=Taş Duvar
+tile.fcStoneMoulding.name=Pervaz ve Dekoratif
+tile.fcStoneMoulding.moulding.name=Taş Pervaz
+tile.fcStoneMoulding.column.name=Taş Sütun
+tile.fcStoneMoulding.pedestal.name=Taş Kaide
+tile.fcStoneMoulding.table.name=Taş Masa
+
+tile.fcSandstoneSiding.name=Cephe ve Köşe
+tile.fcSandstoneSiding.siding.name=Kum Taşı Cephe
+tile.fcSandstoneSiding.corner.name=Kum Taşı Köşe
+tile.fcSandstoneSiding.bench.name=Kum Taşı Bank
+tile.fcSandstoneSiding.fence.name=Kum Taşı Duvar
+tile.fcSandstoneMoulding.name=Pervaz ve Dekoratif
+tile.fcSandstoneMoulding.moulding.name=Kum Taşı Pervaz
+tile.fcSandstoneMoulding.column.name=Kum Taşı Sütun
+tile.fcSandstoneMoulding.pedestal.name=Kum Taşı Kaide
+tile.fcSandstoneMoulding.table.name=Kum Taşı Masa
+
+tile.fcBlockAestheticOpaqueEarth.name=Estetik Opak Toprak
+tile.fcBlockAestheticOpaqueEarth.blight.name=Küf
+tile.fcBlockAestheticOpaqueEarth.blight3.name=Olgun Küf
+tile.fcBlockAestheticOpaqueEarth.packed.name=Paketli Toprak
+tile.fcBlockAestheticOpaqueEarth.dung.name=Dışkı Bloğu
+tile.fcBlockSlabDirt.name=Toprak Basamak
+tile.fcBlockSlabDirt.grass.name=Eski Çimen Basamak
+tile.fcBlockSlabDirt.packed.name=Paketli Toprak Basamak
+tile.fcBlockSlabFalling.name=Çakıl Basamak
+tile.fcBlockSlabFalling.sand.name=Kum Basamak
+
+# Vanilla Blocks Renamed
+
+tile.tnt.name=Barut Varili
+tile.mushroom.name=Eski Mantar
+tile.anvil.intact.name=Örs
+tile.anvil.slightlyDamaged.name=Hafif Hasarlı Örs
+tile.anvil.veryDamaged.name=Ağır Hasarlı Örs
+tile.stairsQuartz.name=Kara Taş Merdiven
+tile.stoneSlab.quartz.name=Kara Taş Basamak
+tile.quartzBlock.default.name=Kara Taş
+tile.quartzBlock.chiseled.name=Oyma Kara Taş
+tile.quartzBlock.lines.name=Kara Taş Sütun
+tile.pumpkin.name=Oyma Bal Kabağı
+tile.wood.blood.name=Kan Ağacı Tahtaları
+tile.woodSlab.blood.name=Kan Ağacı Tahtası Basamak
+
+tile.torch.name=Eski Meşale
+
+tile.stone.name=Düzgün Taş
+
+tile.sapling.oak.name=Eski Meşe Fidanı
+tile.sapling.spruce.name=Eski Ladin Fidanı
+tile.sapling.birch.name=Eski Huş Fidanı
+tile.sapling.jungle.name=Eski Orman Ağacı Fidanı
+
+tile.sapling.oakMature.name=Eski Olgun Meşe Fidanı
+tile.sapling.spruceMature.name=Eski Olgun Ladin Fidanı
+tile.sapling.birchMature.name=Eski Olgun Huş Fidanı
+tile.sapling.jungleMature.name=Eski Olgun Orman Ağacı Fidanı
+
+# BTW Items
+
+item.fcItemBucketCement.name=Çimento Kovası
+item.fcItemWolfChopRaw.name=Çiğ Kurt Pirzolası
+item.fcItemWolfChopCooked.name=Pişmiş Kurt Pirzolası
+item.fcItemNethercoal.name=Nether Kömürü
+item.fcItemSeedsHemp.name=Kenevir Tohumu
+item.fcItemHemp.name=Kenevir
+item.fcItemGear.name=Dişli Çark
+item.fcItemFlour.name=Un
+item.fcItemFibersHemp.name=Kenevir Lifi
+item.fcItemLeatherScoured.name=Fırçalanmış Deri
+item.fcItemDonut.name=Çörek
+item.fcItemRope.name=Halat
+item.fcItemSlats.name=Eski Çıta
+item.fcItemDung.name=Dışkı
+item.fcItemWaterWheel.name=Su Çarkı
+item.fcItemBladeWindMill.name=Yelken
+item.fcItemWindMill.name=Yel Değirmeni
+item.fcItempFabric.name=Kumaş
+item.fcItemGrate.name=Eski Izgara
+item.fcItemWicker.name=Eski İnce Hasır
+item.fcItemLeatherTanned.name=Tabaklanmış Deri
+item.fcItemStrap.name=Sırım
+item.fcItemBelt.name=Kemer
+item.fcItemFoulFood.name=Bozuk Yiyecek
+item.fcItemBladeWood.name=Ahşap Çark Kanadı
+item.fcItemGlue.name=Tutkal
+item.fcItemTallow.name=Don Yağı
+item.fcItemHaft.name=Sap
+item.fcItemIngotSteel.name=Ruhlanmış Çelik
+item.fcItemPickAxeRefined.name=Rafine Kazma
+item.fcItemShovelRefined.name=Rafine Kürek
+item.fcItemHoeRefined.name=Rafine Çapa
+item.fcItemAxeBattle.name=Savaş Baltası
+item.fcItemSwordRefined.name=Rafine Kılıç
+item.fcItemNetherrackGround.name=Öğütülmüş Nether Taşı
+item.fcItemDustHellfire.name=Cehennem Ateşi Tozu
+item.fcItemConcentratedHellfire.name=Derişik Cehennem Ateşi
+item.fcItemArmorPlate.name=Çelik Zırh Plakası
+item.fcItemHelmetPlate.name=Plaka Miğfer
+item.fcItemChestplatePlate.name=Plaka Göğüslük
+item.fcItemLeggingsPlate.name=Plaka Tozluk
+item.fcItemBootsPlate.name=Plaka Çizmeler
+item.fcItemBowComposite.name=Kompozit Yay
+item.fcItemArrowheadBroadhead.name=Genişbaş
+item.fcItemArrowBroadhead.name=Genişbaşlı Ok
+item.fcItemDustCoal.name=Kömür Tozu Yığını
+item.fcItemPadding.name=İçirik
+item.fcItemFilament.name=Filaman
+item.fcItemRedstoneEye.name=Kızıl Taş Gözü
+item.fcItemUrn.name=Kavanoz
+item.fcItemUrnSoul.name=Ruh Kavanozu
+item.fcItemEggPoached.name=Haşlanmış Yumurta
+item.fcItemPotash.name=Potaş
+item.fcItemSoap.name=Sabun
+item.fcItemDustSaw.name=Talaş
+item.fcItemGimpHelm.name=Mankafa Maskesi
+item.fcItemGimpChest.name=Deri Yelek
+item.fcItemGimpLeggings.name=Deri Tozluk
+item.fcItemGimpBoots.name=Motorcu Çizmeleri
+item.fcItemDynamite.name=Dinamit
+item.fcItemHarnessBreeding.name=Çiftleşme Kemeri
+item.fcItemDustSoul.name=Ruh Talaşı
+item.fcItemMattock.name=El Çapası
+item.fcItemHatchetRefined.name=Rafine Balta
+item.fcItemNetherSludge.name=Nether Kili
+item.fcItemBrickNether.name=Nether Tuğla
+item.fcItemTuningFork.name=Diyapazon
+item.fcItemScrollArcane.name=Gizemli Parşömen
+item.fcItemCandle.name=Mum
+item.fcItemSporesNetherGroth.name=Nether Filizi Kökü
+item.fcItemMould.name=Kalıp
+item.fcItemCanvas.name=Tuval
+item.fcItemKibble.name=Kuru Mama
+item.fcItemEggRaw.name=Çiğ Yumurta
+item.fcItemEggFried.name=Pişmiş Yumurta
+item.fcItemScrew.name=Vida
+item.fcItemArrowRotten.name=Çürük Ok
+item.fcItemOcularOfEnder.name=Ender Merceği
+item.fcItemEnderSpectacles.name=Ender Gözlüğü
+item.fcItemStake.name=Kazık
+item.fcItemBrimstone.name=Kükürt Tozu
+item.fcItemNitre.name=Güherçile
+item.fcItemElement.name=Element
+item.fcItemFuse.name=Fitil
+item.fcItemBlastingOil.name=Patlatma Yağı
+item.fcItemWindMillVertical.name=Yel Değirmeni
+item.fcItemPotatoBoiled.name=Haşlanmış Patates
+item.fcItemMuttonRaw.name=Çiğ Koyun Eti
+item.fcItemMuttonCooked.name=Pişmiş Koyun Eti
+item.fcItemWitchWart.name=Cadı Siğili
+item.fcItemCarrotCooked.name=Pişmiş Havuç
+item.fcItemSandwichTasty.name=Leziz Sandviç
+item.fcItemSteakAndPotatoes.name=Patatesli Biftek
+item.fcItemHamAndEggs.name=Jambonlu Yumurta
+item.fcItemDinnerSteak.name=Biftek Yemeği
+item.fcItemDinnerPork.name=Domuz Pirzolası Yemeği
+item.fcItemDinnerWolf.name=Kurt Pirzolası Yemeği
+item.fcItemKebabRaw.name=Çiğ Kebap
+item.fcItemKebabCooked.name=Pişmiş Kebap
+item.fcItemSoupChicken.name=Tavuk Suyu Çorbası
+item.fcItemChowder.name=Balık Türlüsü
+item.fcItemStewHearty.name=Sağlıklı Güveç
+item.fcItemMushroomRed.name=Mantar
+item.fcItemMushroomBrown.name=Mantar
+item.fcItemNuggetIron.name=Demir Parçası
+item.fcItemMail.name=Zincir
+item.fcItemMysteryMeatRaw.name=Çiğ Gizemli Et
+item.fcItemMysteryMeatCooked.name=Pişmiş Gizemli Et
+item.fcItemMushroomOmletRaw.name=Çiğ Mantarlı Omlet
+item.fcItemMushroomOmletCooked.name=Pişmiş Mantarlı Omlet
+item.fcItemEggScrambledRaw.name=Çiğ Omlet
+item.fcItemEggScrambledCooked.name=Pişmiş Omlet
+item.fcItemCreeperOysters.name=Creeper İstiridyeleri
+item.fcItemWoolHelm.name=Bere
+item.fcItemWoolChest.name=Yün Ceket
+item.fcItemWoolLeggings.name=Yün Kapri
+item.fcItemWoolBoots.name=Yün Çorap
+item.fcItemPaddedHelm.name=İçirik Şapka
+item.fcItemPaddedChest.name=İçirik Gömlek
+item.fcItemPaddedLeggings.name=İçirik Pantolon
+item.fcItemPaddedBoots.name=İçirik Çizmeleri
+item.fcItemTannedHelm.name=Tabaklanmış Deri Şapka
+item.fcItemTannedChest.name=Tabaklanmış Deri Ceket
+item.fcItemTannedLeggings.name=Tabaklanmış Deri Pantolon
+item.fcItemTannedBoots.name=Tabaklanmış Deri Çizmeleri
+item.fcItemIngotDiamond.name=Elmas Külçesi
+item.fcItemLeatherCut.name=Deri Kesim
+item.fcItemLeatherTannedCut.name=Tabaklanmış Deri Kesim
+item.fcItemLeatherScouredCut.name=Fırçalanmış Deri Kesim
+item.fcItemFishingRodBaited.name=Yemli Olta
+item.fcItemPileDirt.name=Toprak Yığını
+item.fcItemPileSand.name=Kum Yığını
+item.fcItemPileGravel.name=Çakıl Yığını
+item.fcItemBatWing.name=Yarasa Kanadı
+item.fcItemDungGolden.name=Altın Dışkı
+item.fcItemPileSoulSand.name=Ruh Kumu Yığını
+item.fcItemRedstoneLatch.name=Kızıl Taş Anahtarı
+item.fcItemNuggetSteel.name=Ruhlanmış Çelik Parçası
+item.fcItemWool.name=Yün
+item.fcItemCocoaBeans.name=Kakao Çekirdeği
+item.fcItemChocolate.name=Çikolata
+item.fcItemBucketChocolateMilk.name=Çikolatalı Süt
+item.fcItemSoulFlux.name=Ruh Akı
+item.fcItemEnderSlag.name=Ender Cürufu
+item.fcItemPastryUncookedCake.name=Kek Hamuru
+item.fcItemPastryUncookedCookies.name=Kurabiye Hamuru
+item.fcItemPastryUncookedPumpkinPie.name=Pişmeye Hazır Bal Kabağı Turtası
+item.fcItemMysteriousGland.name=Gizemli Bez
+item.fcItemBeastLiverRaw.name=Canavarın Karaciğeri
+item.fcItemBeastLiverCooked.name=Pişmiş Karaciğer
+item.fcItemAncientProphecy.name=Kehanet Parçası
+item.fcItemStumpRemover.name=Ağaç Kökü Sökücü
+item.fcItemChiselWood.name=Sivri Çubuk
+item.fcItemStone.name=Dağınık Taş
+item.fcItemChiselStone.name=Keskin Taş
+item.fcItemClub.name=Ahşap Sopa
+item.fcItemFireStarterSticks.name=Ateş Başlatıcı
+item.fcItemFireStarterBow.name=Yay Matkabı
+item.fcItemChunkIronOre.name=Demir Cevheri Parçası
+item.fcItemPileIronOre.name=Demir Cevheri Yığını
+item.fcItemChiselIron.name=Demir İskarpela
+item.fcItemChunkGoldOre.name=Altın Cevheri Parçası
+item.fcItemPileGoldOre.name=Altın Cevheri Yığını
+item.fcItemWickerPiece.name=Hasır
+item.fcItemKnittingNeedles.name=Örgü Şişleri
+item.fcItemKnitting.name=Örgü
+item.fcItemWoolKnit.name=Yün Örgü
+item.fcItemClubBone.name=Kemik Sopa
+item.fcItemMeatCured.name=Kurutulmuş Et
+item.fcItemMetalFragment.name=Metal Parçası
+item.fcItemPileClay.name=Kil Yığını
+item.fcItemMeatBurned.name=Yanık Et
+item.fcItemChickenFeed.name=Tavuk Yemi
+item.fcItemFishHookBone.name=Kemik Kanca
+item.fcItemCarvingBone.name=İşlenmemiş Kemik Kanca
+item.fcItemBrickStone.name=Taş Tuğla
+item.fcItemWickerWeaving.name=Hasır Örgü
+item.fcItemWheat.name=Buğday
+item.fcItemWheatSeeds.name=Buğday Tohumu
+item.fcItemBreadDough.name=Ekmek Hamuru
+item.fcItemStraw.name=Saman
+item.fcItemBrickUnfired.name=Yaş Tuğla
+item.fcItemBrickNetherUnfired.name=Yaş Nether Tuğla
+item.fcItemNameTag.name=İsim Etiketi
+item.fcItemChiselDiamond.name=Elmas İskarpela
+item.fcItemShearsDiamond.name=Elmas Makas
+item.fcItemReedRoots.name=Şeker Kamışı Kökü
+item.fcItemCarrot.name=Havuç
+item.fcItemCarrotSeeds.name=Havuç Tohumu
+item.fcItemDiamondPlate.name=Elmas Zırh Plakası
+item.fcItemMelonMashed.name=Karpuz Püresi
+item.fcItemBedroll.name=Uyku Tulumu
+item.fcItemCorpseEye.name=Ceset Gözü
+item.fcItemTangledWeb.name=Dolaşık Ağ
+item.fcItemWebUntangling.name=Tamamlanmamış Ağ
+item.fcItemSinew.name=Kas Teli
+
+# BTW Complex Items
+
+item.fcItemBark.name=Kabuk
+item.fcItemBark.oak.name=Meşe Kabuğu
+item.fcItemBark.spruce.name=Ladin Kabuğu
+item.fcItemBark.birch.name=Huş Kabuğu
+item.fcItemBark.jungle.name=Orman Ağacı Kabuğu
+item.fcItemBark.bloodwood.name=Kan Ağacı Kabuğu
+
+# Vanilla Items Renamed
+
+item.cauldron.name=Sarnıç
+item.mushroomStew.name=Kremalı Mantar
+item.enchantedBook.name=Antik El Yazması
+item.fireworks.name=Yaş Havai Fişek
+item.stick.name=Çubuk
+item.fermentedSpiderEye.name=Zehir Torbası
+item.dyePowder.brown.name=Kakao Tozu
+item.skull.wither.name=Efsunlu Kafatası
+item.skull.infused.name=Dolgun Kafatası
+item.wheat.name=Eski Buğday
+item.seeds.name=Eski Tohumlar
+item.carrots.name=Eski Havuç
+
+# Potions
+
+potion.fcFortune=Servet
+potion.fcLooting=Ganimet
+potion.fcTrueSight=Net Görüş
+potion.hunger=Gıda Zehirlenmesi
+
+# Container
+
+container.fcFurnaceBrick=Tuğla Fırın
+container.fcHamper=Kapaklı Sepet
+container.fcMillStone=Değirmen Taşı
+
+# Entities
+
+entity.fcJungleSpider.name=Orman Örümceği
+entity.addonVillagerFarmer.name=Çiftçi
+entity.addonVillagerBlacksmith.name=Demirci
+entity.addonVillagerButcher.name=Kasap
+entity.addonVillagerLibrarian.name=Kütüphaneci
+entity.addonVillagerPriest.name=Rahip
+
+# KeyBindings
+
+key.special=Alternatif Kullanım
+
+# Chat Messages
+
+item.fcItemWaterWheel.placementObstructed=Su Çarkı yerleşimi bir şey tarafından ya da sizden dolayı engelleniyor
+item.fcItemWaterWheel.notEnoughRoom=Su Çarkını yerleştirmek için yeterli alan yok
+message.windMill.placementObstructed=Yel Değirmeni yerleşimi bir şey tarafından ya da sizden dolayı engelleniyor
+message.windMill.notEnoughRoom=Yel Değirmeni yerleştirmek için yeterli alan yok (Kahrolası şeyler KOCAMAN!)
+item.fcItemWindMillVertical.tooFewAxles=Yel Değirmenini yerleştirmek için bu sütunda çok az dikey Aks var
+tile.beacon.playerBound=Bu fenere bağlandınız
+tile.beacon.invalid=Yeniden doğma konumunuz geçersiz bulundu
+tile.beacon.notPresent=Bağlı olduğunuz fener artık mevcut değil
+tile.beacon.tooFar=Bağlı olduğunuz fener çok uzaktaydı
+tile.beacon.obstructed=Bağlı olduğunuz fener engellendi
+tile.beacon.unknown=Yeniden doğuşunuz bilinmeyen bir nedenle başarısız oldu
+tile.bed.sleepImpossible=Burada dinlenemeyecek kadar çok kaygılısın
+tile.fcBlockHandCrank.playerExhausted=El işi yapmak için çok yorgunsunuz
+item.enchantedBook.languageUnfamiliar=Bu metnin dili size yabancı geliyor
+message.death.itemsDestroyed=Son benliğiniz henüz kurtulmuş olsa da, geçmiş yaşamlarınızın eylemleri unutuldu
+
+# Death Messages
+
+death.attack.fcSaw=%1$s huzur içinde parçalandı
+death.attack.fcChoppingBlock=%1$s doğrama bloğuna konuldu
+death.attack.fcGroth=%1$s Filiz ile bütünleşti
+death.attack.fcGrothSpores=%1$s Filizin tehditlerine dayanamadı
+death.attack.fcMelon=%1$s karpuzların içinde boğuldu
+death.attack.fcPumpkin=%1$s bal kabağı giymeyi biraz fazla ileri götürdü
+death.attack.fcGloom=%1$s karanlık tarafından yutuldu
+
+# Difficulty modes
+
+difficulty.standard.name=Standart
+difficulty.standard.description=Standart hayatta kalma deneyimi.
+difficulty.standard.description2=Tecrübeli oyuncular için tavsiye edilir
+difficulty.standard.description3=ya da mücadele arayanlar için.
+
+difficulty.relaxed.name=Huzurlu
+difficulty.relaxed.description=Daha rahat bir hayatta kalma deneyimi.
+difficulty.relaxed.description2=Yeni oyuncular ya da daha az sıkıntıda
+difficulty.relaxed.description3=hayatta kalmak isteyenler için önerilir.
+
+# Status effects
+
+status.invalid=Geçersiz
+
+status.gloom.gloom=Kasvet
+status.gloom.dread=Endişe
+status.gloom.terror=Dehşet
+
+status.hunger.peckish=Acıkma
+status.hunger.hungry=Açlık
+status.hunger.famished=Mide Kazınması
+status.hunger.emaciated=Zayıflık
+status.hunger.starving=Açlıktan Ölüm
+
+status.health.hurt=İncinme
+status.health.injured=Yaralanma
+status.health.wounded=Ağır Yaralanma
+status.health.crippled=Sakatlanma
+status.health.dying=Ölüm Döşeği
+
+status.fat.plump=Tombul
+status.fat.chubby=Kilolu
+status.fat.fat=Şişman
+status.fat.obese=Obez
+
+# Commands
+
+commands.difficulty.usage=/difficulty [yeni oyun zorluğu]
+commands.difficulty.unknown=Tanımlanmamış oyun zorluğu
+commands.difficulty.current=Mevcut oyun zorluğu
+commands.difficulty.set=Oyun zorluğu şuna ayarlandı:
+
+# Menu strings
+
+selectWorld.difficulty=Zorluk
