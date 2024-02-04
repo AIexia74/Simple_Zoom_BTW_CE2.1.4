@@ -1,3 +1,6 @@
+[![Watch the video](https://img.youtube.com/vi/kHld6w3Bw7o/hqdefault.jpg)](https://www.youtube.com/embed/kHld6w3Bw7o)
+
+
 # BTW-gradle-fabric-example
 
 This repository is based on the [BTW-Gradle](https://github.com/BTW-Community/BTW-gradle) and the [Example Mod](https://github.com/minecraft-cursed-legacy/Example-Mod)
